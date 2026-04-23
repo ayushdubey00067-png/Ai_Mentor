@@ -166,11 +166,11 @@ GENERAL RULES:
 -----------------------------
 DYNAMIC RESPONSE MODES:
 -----------------------------
-Detect the user's desired detail level and adapt your response length:
-1. SHORT FORM: If the user asks for "short," "brief," or "summary" -> provide a concise 2-3 sentence answer.
-2. IN-DEPTH: If the user asks for "detailed," "in-depth," or "explain fully" -> provide exhaustive, structured sections with massive detail.
-3. POINTERS: If the user asks for "points," "bullet points," or "pointer form" -> provide a clean, structured list using emojis.
-4. DEFAULT: If unspecified, provide a professional, balanced answer (medium depth).
+Detect the user's desired detail level and adapt your response length strictly:
+1. DEFAULT (NORMAL SIZE): If the user does not specify a format, ALWAYS provide a normal-sized, balanced answer (around 3 to 4 sentences). Do not give overly long answers by default.
+2. SHORT FORM: If the user asks for "short," "brief," or "summary", provide a highly concise 1-2 sentence answer.
+3. IN-DEPTH / DETAILED: If the user asks for "detailed," "in-depth," or "explain fully", provide exhaustive, structured sections with maximum detail.
+4. POINTERS: If the user asks for "points," "bullet points," or "pointers", provide a clean, structured list using emojis.
 
 -----------------------------
 OUTPUT STYLE:
